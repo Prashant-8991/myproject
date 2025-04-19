@@ -25,9 +25,9 @@ services:
     depends_on:
       - db
     environment:
-      - DB_NAME=customdb
-      - DB_USER=customuser
-      - DB_PASSWORD=custompass
+      - DB_NAME=brijesh
+      - DB_USER=brijesh
+      - DB_PASSWORD=brijesh
       - DB_HOST=db
 
   prometheus:
